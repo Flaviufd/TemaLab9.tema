@@ -9,16 +9,16 @@ public class Facebook implements Services{
 
     @Override
     public String install() {
-        return null;
+        return "We can install apps like on " + name + " at the link ........";
     }
 
     @Override
     public String configure() {
-        return null;
+        return "We configure all the website like on " + name;
     }
 
     @Override
     public String maintenance() {
-        return null;
+        return "We will maintenance your site like " + name;
     }
 }
